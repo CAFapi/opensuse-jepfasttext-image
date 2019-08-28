@@ -1,4 +1,4 @@
-# openSUSE and JepTalon image
+# openSUSE and JepFastText image
 
 This project builds on the openSUSE JDK8 image [here](https://github.com/CAFapi/opensuse-java8-images/blob/develop/src/main/docker/jdk/Dockerfile), Python 3, Jep and fastText are then installed on the image.
 Jep is a library used for executing python scripts from within java code, more information on Jep can be found [here](https://github.com/ninia/jep/blob/master/README.rst).
