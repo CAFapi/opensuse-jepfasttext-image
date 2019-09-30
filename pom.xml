@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright 2018 Micro Focus or one of its affiliates.
+    Copyright 2019 Micro Focus or one of its affiliates.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@
     <description>An openSUSE-based image which includes jep and fastText.</description>
     <url>https://github.com/CAFapi/opensuse-jepfasttext-image</url>
 
-    <inceptionYear>2018</inceptionYear>
+    <inceptionYear>2019</inceptionYear>
 
     <parent>
         <groupId>com.github.cafapi</groupId>
@@ -64,7 +64,7 @@
     </developers>
 
     <properties>
-        <copyrightYear>2018</copyrightYear>
+        <copyrightYear>2019</copyrightYear>
         <copyrightNotice>Copyright ${copyrightYear} Micro Focus or one of its affiliates.</copyrightNotice>
         <maven.install.skip>true</maven.install.skip>
         <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
