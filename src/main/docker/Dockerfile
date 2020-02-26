@@ -14,9 +14,11 @@
 # limitations under the License.
 #
 
-FROM cafinternal/prereleases:opensuse-jdk8-2.0.0-SNAPSHOT
+FROM cafapi/opensuse-jdk8:2
 
-RUN zypper -n install python3-devel && \
+RUN zypper -n refresh && \
+    zypper -n update && \
+    zypper -n install python3-devel && \
     zypper -n install python3-pip && \
     zypper -n install gcc-c++ && \
     pip install numpy==1.17.0 && \
