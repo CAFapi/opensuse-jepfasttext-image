@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FROM cafinternal/prereleases:opensuse-jdk8-3.0.0-SNAPSHOT
+FROM cafinternal/prereleases:opensuse-jdk11-3.0.0-SNAPSHOT
 
 RUN zypper -n refresh && \
     zypper -n update && \
