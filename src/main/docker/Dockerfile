@@ -14,7 +14,8 @@
 # limitations under the License.
 #
 
-FROM cafapi/opensuse-jdk11:3
+ARG DOCKER_HUB_PUBLIC=docker.io
+FROM ${DOCKER_HUB_PUBLIC}/cafapi/opensuse-jdk11:3
 
 RUN zypper -n refresh && \
     zypper -n update && \
